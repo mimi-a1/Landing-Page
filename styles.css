@@ -41,10 +41,7 @@ footer {
 .header-button {
     background-color: #3882F6;
     color: white;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 7px 30px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 7px;
@@ -66,7 +63,7 @@ footer {
 
 .row-2 {
 background-color: #E5E7EB;
-border: 2px solid red;
+padding: 100px 400px;
 }
 
 .row-3 {
@@ -79,6 +76,7 @@ border: 2px solid red;
     font-weight: lighter;
     font-size: 36px;
     color: #1F2937;
+    opacity: 80%;
 }
 
 .information-header {
@@ -143,4 +141,10 @@ padding: 0;
 .pic-four {
     width: 200px;
     text-align: center;
+}
+
+#thor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
