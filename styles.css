@@ -1,5 +1,8 @@
 body {
 font-family: roboto, arial, helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+padding: 0;
 }
 
 img {
@@ -9,6 +12,10 @@ img {
 
 header {
 background-color: #1F2937;
+padding-left: 200px;
+padding-right: 200px;
+border: 2px solid red;
+margin: 0;
 }
 
 footer {
@@ -35,12 +42,18 @@ footer {
     color: #3882F6;
 }
 
+.row-1 {
+    border: 2px solid red;
+}
+
 .row-2 {
 background-color: #E5E7EB;
+border: 2px solid red;
 }
 
 .row-3 {
     background-color: #3882F6; 
+    border: 2px solid red;
 }
 
 .italic {
@@ -56,10 +69,26 @@ background-color: #E5E7EB;
     color: #1F2937;
 }
 
+
 li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
 text-decoration: none;
+font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-top {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+padding: 0;
+}
+
+#link-one {
+    margin-left: auto;
 }
