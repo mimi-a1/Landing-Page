@@ -47,11 +47,12 @@ footer {
 
 .header-button {
     background-color: #3882F6;
-    color: white;
-    padding: 7px 30px;
+    color: #F9FAF8;
+    padding: 6px 30px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 7px;
+    border: 2px solid #3882F6;
 }
 
 .row-1 {
@@ -75,7 +76,11 @@ padding: 100px 400px;
 
 .row-3 {
     background-color: #3882F6; 
-    border: 2px solid red;
+    margin: 100px 200px;
+    padding: 50px 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .italic {
@@ -154,4 +159,14 @@ padding: 0;
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.second-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid #F9FAF8;
 }
