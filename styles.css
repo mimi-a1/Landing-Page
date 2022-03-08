@@ -48,7 +48,7 @@ footer {
 .header-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 6px 30px;
+    padding: 5px 35px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 7px;
@@ -71,7 +71,7 @@ footer {
 
 .row-2 {
 background-color: #E5E7EB;
-padding: 100px 400px;
+padding: 100px 350px;
 }
 
 .row-3 {
@@ -89,6 +89,7 @@ padding: 100px 400px;
     font-size: 36px;
     color: #1F2937;
     opacity: 80%;
+    margin-bottom: 5px;
 }
 
 .information-header {
@@ -127,12 +128,13 @@ padding: 0;
 .header-bottom {
     display: flex;
     margin-bottom: 80px;
-    justify-content: space-between;
+    gap: 200px;
+    justify-content: center;
 }
 
 #header-image {
-    width: 550px;
-    height: 270px;
+    width: 900px;
+    height: 300px;
     margin: 0;
     padding: 0;
     border-radius: 5px;
@@ -164,9 +166,9 @@ padding: 0;
 .second-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 6px 30px;
+    padding: 5px 35px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 7px;
-    border: 2px solid #F9FAF8;
+    border: 3px solid #F9FAF8;
 }
